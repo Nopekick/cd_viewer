@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Sunflower;
+  font-size: 12;
+  border: 1px solid lightgray;
+  height: 30px;
+  width: 50%;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#box{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input{
+  outline: none;
+}
+
+.but{
+  color: darkgreen;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+}
