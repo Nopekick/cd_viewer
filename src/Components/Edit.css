@@ -5,6 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   justify-content: space-around;
+  flex-wrap: nowrap;
   align-items: center;
   font-family: Sunflower;
   font-size: 12;

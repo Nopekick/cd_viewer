@@ -51,7 +51,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Tab edit={this.handleEdit.bind(this)} view={this.handleView.bind(this)}/>
+        <Tab tab={this.state.tab} edit={this.handleEdit.bind(this)} view={this.handleView.bind(this)}/>
           {this.state.tab==='EDIT' ?  <Edit cds={this.state.CDs} addCd={this.addCd.bind(this)}/>
             : <View interest={this.state.interest} />
           }

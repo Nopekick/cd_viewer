@@ -56,7 +56,7 @@ class Edit extends Component{
 
     return (
       <div>
-        <p style={{'textAlign':'center', 'fontSize': '30px'}}> Add Certificates of Deposit </p>
+        <p style={{'textAlign':'center', 'fontSize': '30px'}}> Add Deposits </p>
         <div id='box'>
          {existing}
          {this.state.new ? newForm : null}
